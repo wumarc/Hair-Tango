@@ -2,9 +2,9 @@
 
 const ContactUs = () => {
     return (
-    <div>
-
-        <div>
+    <div className="row">
+        
+        <div className="col-5">
             <h4>Get In Touch!</h4>
             <form>
                 <div class="mb-3">
@@ -29,11 +29,11 @@ const ContactUs = () => {
             <p>Get in touch with us and we will get back to your shortly</p>
         </div>
 
-        <div>
+        <div className="col-5">
             <h4>Our Location</h4>
             {/* Map */}
             
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.9863531271885!2d-75.69122242323446!3d45.42977643573416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05031f5b834b%3A0x18c70ed203b29f53!2sHair%20Tango!5e0!3m2!1sen!2sca!4v1686197082856!5m2!1sen!2sca" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"/>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.9863531271885!2d-75.69122242323446!3d45.42977643573416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05031f5b834b%3A0x18c70ed203b29f53!2sHair%20Tango!5e0!3m2!1sen!2sca!4v1686197082856!5m2!1sen!2sca" width="420" height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade"/>
 
             <h4>Our Opening Hours</h4>
 
