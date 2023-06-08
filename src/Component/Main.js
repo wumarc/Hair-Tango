@@ -10,9 +10,9 @@ import Home from "./Home";;
 const Main = () => {
     return (
         <>
-        {/* Dynamically Render Pages with Routers */}
         <NavBar />
 
+        {/* Dynamically Render Pages with Routers */}
         <div className="container">
             <BrowserRouter>
                 <Routes>

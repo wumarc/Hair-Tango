@@ -4,14 +4,14 @@ const AboutUs = () => {
     
     return (
         
-    <div className="container bg-success">
+    <div className="container">
 
-        <div class="bg-body-tertiary">
+        <div class="">
         
         {/* About Us */}
-        <div class="col align-self-center bg-primary">
+        <div class="col align-self-center mt-5">
             
-            <div class="fs-2 fw-bold">About Us</div>
+            <div class="fs-2 fw-bold mb-2">About Us</div>
             
             <div>
             With a passion for hair and years of experience, our expert team at Hair Tango is dedicated to delivering exceptional hairstyling services. Our history is rooted in a commitment to excellence, as our founder assembled a talented team who continually refine their skills through advanced training. We celebrate diversity and pride ourselves on tailoring our expertise to meet the unique needs of each client. Experience the transformative power of a great hairstyle in our welcoming salon environment. Join us as we shape the hair industry one client at a time.
@@ -20,9 +20,9 @@ const AboutUs = () => {
         </div>
         
         {/* Our team */}
-        <div class="col align-self-center bg-secondary">
+        <div class="col align-self-center mt-3">
 
-            <div class="fs-2 fw-bold">Our Team</div>
+            <div class="fs-2 fw-bold mb-2">Our Team</div>
 
             <div class="row">
                 
@@ -42,7 +42,7 @@ const AboutUs = () => {
                 </div>
 
                 <div class="fw-light">
-                    The Color Maestro: With an artistic eye and a passion for hair color, Sarah is a master of creating stunning and vibrant hair transformations. From subtle highlights to bold fashion shades, she knows how to bring out the best in your hair with her expert color blending techniques.
+                    The Color Maestro: With an artistic eye and a passion for hair color, Maximilian is a master of creating stunning and vibrant hair transformations. From subtle highlights to bold fashion shades, he knows how to bring out the best in your hair with his expert color blending techniques.
                 </div>
 
                 </div>
@@ -63,7 +63,7 @@ const AboutUs = () => {
                 </div>
                 
                 <div class="fw-light">
-                    The Precision Cutter: Known for his meticulous attention to detail, Jason is a true master of precision cutting. He can flawlessly sculpt any type of hair, from long layers to edgy pixie cuts, ensuring a perfect balance and shape.
+                    The Precision Cutter: Known for his meticulous attention to detail, Aurora is a true master of precision cutting. He can flawlessly sculpt any type of hair, from long layers to edgy pixie cuts, ensuring a perfect balance and shape.
                 </div>
 
                 </div>
@@ -84,7 +84,7 @@ const AboutUs = () => {
                 </div>
                 
                 <div class="fw-light">
-                    The Texture Wizard: When it comes to working with textured hair, Maria is an unrivaled expert. Whether you have natural curls, waves, or coils, she knows the secrets to enhance and define your hair's unique texture.
+                    The Texture Wizard: When it comes to working with textured hair, Orion is an unrivaled expert. Whether you have natural curls, waves, or coils, she knows the secrets to enhance and define your hair's unique texture.
                 </div>
 
                 </div>

@@ -4,8 +4,7 @@ import NavBar from "./NavBar";
 const Book = () => {
 
     <div>
-        <NavBar />
-        Book
+        Booking Page
     </div>
 }
 

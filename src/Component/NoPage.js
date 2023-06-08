@@ -6,8 +6,7 @@ const NoPage = () => {
 
     return (
         <div>
-            <NavBar />
-            No Page Found
+            Sorry, No Page Found!!
         </div>
     )
     
