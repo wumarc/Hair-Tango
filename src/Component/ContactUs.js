@@ -2,52 +2,68 @@
 
 const ContactUs = () => {
     return (
-    <div className="row">
-        
-        <div className="col-5">
-            <h4>Get In Touch!</h4>
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Name</label>
-                    <input class="form-control" />
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Phone</label>
-                    <input class="form-control" />
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email</label>
-                    <input class="form-control" />
-                </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Message</label>
-                    <input type="password" class="form-control"/>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-
-            <p>Get in touch with us and we will get back to your shortly</p>
-        </div>
-
-        <div className="col-5">
-            <h4>Our Location</h4>
-            {/* Map */}
+    <div className="container">
+        <div className="row align-items-center">
             
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.9863531271885!2d-75.69122242323446!3d45.42977643573416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05031f5b834b%3A0x18c70ed203b29f53!2sHair%20Tango!5e0!3m2!1sen!2sca!4v1686197082856!5m2!1sen!2sca" width="420" height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade"/>
+            <div className="col-6">
+                <h4>Get In Touch!</h4>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Name</label>
+                        <input class="form-control" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Phone</label>
+                        <input class="form-control" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input class="form-control" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Message</label>
+                        <input type="password" class="form-control"/>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
 
-            <h4>Our Opening Hours</h4>
+                <p>Get in touch with us and we will get back to your shortly</p>
+            </div>
 
-            <ul>Monday: 9am - 5pm</ul>
-            <ul>Tuesday: 9am - 5pm</ul>
-            <ul>Wednesday: 9am - 5pm</ul>
-            <ul>Thursday: 9am - 5pm</ul>
-            <ul>Friday: 9am - 5pm</ul>
-            <ul>Saturday: Closed</ul>
-            <ul>Sunday: Closed</ul>
+            <div className="col-6">
 
+                <div>
+                    <h4>Our Location</h4>
+                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.9863531271885!2d-75.69122242323446!3d45.42977643573416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05031f5b834b%3A0x18c70ed203b29f53!2sHair%20Tango!5e0!3m2!1sen!2sca!4v1686197082856!5m2!1sen!2sca" width="320" height="200" loading="lazy" referrerpolicy="no-referrer-when-downgrade"/>
+                    
+                    <div className="d-flex flex-row">
+                        <i class="fa fa-location-arrow" style={{fontSize:"22px"}}></i>
+                        <p>&nbsp; 180 York St, Ottawa, ON K1N 1J6</p>
+                    </div>
+                    
+                    <div className="d-flex flex-row">
+                        <i class="fa fa-mobile" style={{fontSize:"22px"}}></i>
+                        <p>&nbsp; &nbsp; (888)-888-8888</p>
+                    </div>
+                    
+                </div>
+
+                <div>
+                    <h4>Our Opening Hours</h4>
+                    <ul className="mb-0">Monday: 9am - 5pm</ul>
+                    <ul className="mb-0">Tuesday: 9am - 5pm</ul>
+                    <ul className="mb-0">Wednesday: 9am - 5pm</ul>
+                    <ul className="mb-0">Thursday: 9am - 5pm</ul>
+                    <ul className="mb-0">Friday: 9am - 5pm</ul>
+                    <ul className="mb-0">Saturday: Closed</ul>
+                    <ul className="mb-0">Sunday: Closed</ul>
+                </div>
+
+            </div>
+
+            
         </div>
-
-        
     </div>
 )}
 
