@@ -4,8 +4,6 @@ const Home = () => {
 
     return (
         <div>
-            <NavBar />
-
             home
         </div>
     )
