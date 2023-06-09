@@ -1,6 +1,28 @@
+import { useState } from "react"
 
 
 const ContactUs = () => {
+
+    const [form, setForm] = useState({
+        name: "",
+        phone: "",
+        email: "",
+        message: ""
+    })
+
+    const [showMessage, setShowMessage] = useState(false)
+
+    const submit = (e) => {
+        e.preventDefault()
+        setShowMessage(true)
+        setForm({
+            name: "",
+            phone: "",
+            email: "",
+            message: ""
+        })
+    }
+
     return (
     <div className="container mt-5">
         <div className="row">
@@ -10,11 +32,11 @@ const ContactUs = () => {
                 <form>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Name</label>
-                        <input class="form-control" />
+                        <input class="form-control"/>
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Phone</label>
-                        <input class="form-control" />
+                        <input class="form-control"/>
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email</label>
@@ -22,12 +44,19 @@ const ContactUs = () => {
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">Message</label>
-                        <input type="password" class="form-control"/>
+                        <input type="password" class="form-control" />
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
 
-                <p>Get in touch with us and we will get back to your shortly</p>
+                    <button type="submit" class="btn btn-primary" onClick={(e) => {submit(e)}}>
+                        Submit
+                    </button>
+
+                </form>
+                
+                { showMessage &&
+                    <p>Your email has been send and received, we will get back to your shortly!</p>
+                }
+                
             </div>
 
             <div className="col-6 px-5">
