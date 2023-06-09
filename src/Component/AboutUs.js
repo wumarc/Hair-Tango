@@ -4,7 +4,7 @@ const AboutUs = () => {
     
     return (
         
-    <div className="container">
+    <div className="container mb-5 pb-5">
 
         <div class="">
         
@@ -20,7 +20,7 @@ const AboutUs = () => {
         </div>
         
         {/* Our team */}
-        <div class="col align-self-center mt-3">
+        <div class="col align-self-center mt-3 pt-4">
 
             <div class="fs-2 fw-bold mb-2">Our Team</div>
 
