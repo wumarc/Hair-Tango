@@ -2,10 +2,10 @@
 
 const ContactUs = () => {
     return (
-    <div className="container">
-        <div className="row align-items-center">
+    <div className="container mt-5">
+        <div className="row">
             
-            <div className="col-6">
+            <div className="col-6 px-5">
                 <h4>Get In Touch!</h4>
                 <form>
                     <div class="mb-3">
@@ -30,7 +30,7 @@ const ContactUs = () => {
                 <p>Get in touch with us and we will get back to your shortly</p>
             </div>
 
-            <div className="col-6">
+            <div className="col-6 px-5">
 
                 <div>
                     <h4>Our Location</h4>
@@ -46,23 +46,21 @@ const ContactUs = () => {
                         <i class="fa fa-mobile" style={{fontSize:"22px"}}></i>
                         <p>&nbsp; &nbsp; (888)-888-8888</p>
                     </div>
-                    
                 </div>
 
                 <div>
                     <h4>Our Opening Hours</h4>
-                    <ul className="mb-0">Monday: 9am - 5pm</ul>
-                    <ul className="mb-0">Tuesday: 9am - 5pm</ul>
-                    <ul className="mb-0">Wednesday: 9am - 5pm</ul>
-                    <ul className="mb-0">Thursday: 9am - 5pm</ul>
-                    <ul className="mb-0">Friday: 9am - 5pm</ul>
-                    <ul className="mb-0">Saturday: Closed</ul>
-                    <ul className="mb-0">Sunday: Closed</ul>
+                    <ul className="mb-0 px-0">Monday: 9am - 5pm</ul>
+                    <ul className="mb-0 px-0">Tuesday: 9am - 5pm</ul>
+                    <ul className="mb-0 px-0">Wednesday: 9am - 5pm</ul>
+                    <ul className="mb-0 px-0">Thursday: 9am - 5pm</ul>
+                    <ul className="mb-0 px-0">Friday: 9am - 5pm</ul>
+                    <ul className="mb-0 px-0">Saturday: Closed</ul>
+                    <ul className="mb-0 px-0">Sunday: Closed</ul>
                 </div>
 
             </div>
 
-            
         </div>
     </div>
 )}
