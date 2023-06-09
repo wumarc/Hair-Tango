@@ -9,7 +9,7 @@ const AboutUs = () => {
         <div class="">
         
         {/* About Us */}
-        <div class="col align-self-center mt-5">
+        <div class="col align-self-center mt-3">
             
             <div class="fs-2 fw-bold mb-2">About Us</div>
             
@@ -32,7 +32,7 @@ const AboutUs = () => {
                     <img 
                     src="https://images.pexels.com/photos/5378700/pexels-photo-5378700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                     class="img-thumbnail rounded-circle"
-                    Style="max-width:60%;"
+                    Style="max-width:40%;"
                     alt="..."
                     />
                 </div>
@@ -42,7 +42,7 @@ const AboutUs = () => {
                 </div>
 
                 <div class="fw-light">
-                    The Color Maestro: With an artistic eye and a passion for hair color, Maximilian is a master of creating stunning and vibrant hair transformations. From subtle highlights to bold fashion shades, he knows how to bring out the best in your hair with his expert color blending techniques.
+                    With an artistic eye and a passion for hair color, Maximilian is a master of creating stunning and vibrant hair transformations. he knows how to bring out the best in your hair with his expert color blending techniques.
                 </div>
 
                 </div>
@@ -53,7 +53,7 @@ const AboutUs = () => {
                     <img 
                     src="https://images.pexels.com/photos/3454298/pexels-photo-3454298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
                     class="img-thumbnail rounded-circle"
-                    Style="max-width:60%;"
+                    Style="max-width:40%;"
                     alt="..."
                     />
                 </div>
@@ -74,7 +74,7 @@ const AboutUs = () => {
                     <img 
                     src="https://images.pexels.com/photos/7116213/pexels-photo-7116213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
                     class="img-thumbnail rounded-circle"
-                    Style="max-width:60%;"
+                    Style="max-width:40%;"
                     alt="..."
                     />
                 </div>
@@ -95,7 +95,7 @@ const AboutUs = () => {
                     <img 
                     src="https://images.pexels.com/photos/3785991/pexels-photo-3785991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
                     class="img-thumbnail rounded-circle"
-                    Style="max-width:60%;"
+                    Style="max-width:40%;"
                     alt="..."
                     />
                 </div>
