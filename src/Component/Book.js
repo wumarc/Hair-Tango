@@ -31,7 +31,7 @@ const Book = () => {
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Name</label>
                         <input class="form-control"/>
-                    </div>
+                    </div> 
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email</label>
                         <input class="form-control" />
