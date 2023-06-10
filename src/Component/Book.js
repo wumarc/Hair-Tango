@@ -26,7 +26,7 @@ const Book = () => {
     return (
         <div>
             <div className="col-8 px-5">
-                <div class="fs-2 fw-bold mb-2">Book An Appointment With Us</div>
+                <div class="fs-2 fw-bold mb-2 mt-4">Book An Appointment With Us</div>
                 <form>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Name</label>
