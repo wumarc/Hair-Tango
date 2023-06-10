@@ -119,11 +119,18 @@ const Book = () => {
             { showMessage &&
                 <div className="col-6 px-3 border border-light-subtle border-3 mt-3">
                     <div className="fs-4"><b>Booking Confirmed!</b></div>
-                    <br/><br/>
+                    <br/>
                     <div>Your appointment request has been received. We are looking forward to seeing you! If you have any concerns about your reservation, please feel free to reach out to us</div>
+                    <br/>
+                    <div className="fs-5"><b>Details of your Appointment:</b></div>
+                    <br/>
+                    <div><b>Booking Number: </b> #3141572578</div>
+                    <div><b>Date: </b>June 6, 2023 @ 10 a.m.</div>
+                    <div><b>Service: </b>Man Hair Cut</div>
+                    <div><b>Stylist: </b>Maximilian Stormbringer</div>
+                    
                     <br/><br/>
-                    <div><b>Booking Number: #3141572578</b></div>
-                    <br/><br/>
+
                     <button type="submit" class="btn btn-primary col-12 mb-4" onClick={() => changePage()}>Make Another Reservation</button>
                 </div>
             }
