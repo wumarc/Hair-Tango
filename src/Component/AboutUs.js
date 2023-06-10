@@ -39,6 +39,12 @@ const AboutUs = () => {
 
                 <div class="fs-4 d-flex justify-content-center">
                     Maximilian Stormbringer
+                    <i class="fa fa-instagram mt-2 mx-1" 
+                        style={{
+                            fontSize:"22px", 
+                            cursor: "pointer",
+                        }}>
+                    </i>
                 </div>
 
                 <div class="fw-light">
@@ -60,6 +66,12 @@ const AboutUs = () => {
 
                 <div class="fs-4 d-flex justify-content-center">
                     Aurora Nightshade
+                    <i class="fa fa-instagram mt-2 mx-1" 
+                        style={{
+                            fontSize:"22px", 
+                            cursor: "pointer",
+                        }}>
+                    </i>
                 </div>
                 
                 <div class="fw-light">
@@ -81,6 +93,12 @@ const AboutUs = () => {
 
                 <div class="fs-4 d-flex justify-content-center">
                     Orion Blackwood
+                    <i class="fa fa-instagram mt-2 mx-1" 
+                        style={{
+                            fontSize:"22px", 
+                            cursor: "pointer",
+                        }}>
+                    </i>
                 </div>
                 
                 <div class="fw-light">
@@ -102,6 +120,12 @@ const AboutUs = () => {
 
                 <div class="fs-4 d-flex justify-content-center">
                     David Lee
+                    <i class="fa fa-instagram mt-2 mx-1" 
+                        style={{
+                            fontSize:"22px", 
+                            cursor: "pointer",
+                        }}>
+                    </i>
                 </div>
                 
                 <div class="fw-light">

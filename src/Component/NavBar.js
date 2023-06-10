@@ -25,7 +25,7 @@ const NavBar = () => {
           </ul>
 
           <div className="d-flex" role="search">
-            <button className="btn btn-outline-success" href="/book">Book Now</button>
+            <button className="btn btn-success"><a className="nav-link active" href="/book">Book Now</a></button>
           </div>
 
         </div>
