@@ -1,7 +1,3 @@
-import NavBar from "./NavBar";
-
-
-
 const NoPage = () => {
 
     return (
