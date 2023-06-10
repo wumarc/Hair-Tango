@@ -2,7 +2,7 @@
 const Home = () => {
 
     return (
-        <div className="container mt-5 pt-5">
+        <div className="container mt-5">
 
         <div className="row justify-content-center align-items-center mt-5 pt-5">
             
